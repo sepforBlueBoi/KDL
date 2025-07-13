@@ -3,7 +3,8 @@
 import json
 import time
 import os
-
+from KDLhandler import KDLErr
+err = KDLErr
 
 LOG_PATH = "./logs/watcher.log" #sets up pathway file
 
@@ -22,6 +23,8 @@ def logging(node, event_type, source, details): # actual logging system, can and
         "source": source, # objects being logged
         "details": details
     }
-  
-    with open(LOG_PATH, "a") as log_file:
-        log_file.write(json.dumps(entry, indent=2) + "\n") 
+    try:
+        with open(LOG_PATH, "a") as log_file:
+            log_file.write(json.dumps(entry, indent=2) + "\n") 
+    except Exception as e:
+        err.watchererror("NodeError", f"{node} failed to report back: {e}")

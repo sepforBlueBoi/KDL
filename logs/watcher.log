@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-07-12 23: 55: 24",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "exit",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-12 23: 55: 57",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "exit hello",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-12 23: 56: 14",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "help",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-12 23: 57: 15",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "help",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-12 23: 59: 09",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "help",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-12 23: 59: 14",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "help hello",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-12 23: 59: 21",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "exit",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}

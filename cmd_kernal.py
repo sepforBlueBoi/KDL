@@ -9,7 +9,7 @@ err = KDLErr
 init_watcher()
 def cmd_prompt():
     print("=" * 40) # banner for info 
-    print("Kondikes Debug Language[KDL] v1.0.0-Alpha")
+    print("Kondikes Debug Language[KDL] v1.1.0") #1.1 now since erreyes
     print("Type 'help' for a list of commands.")
     print("type 'exit' to quit.")
     print("=" * 40)
@@ -22,15 +22,17 @@ def cmd_prompt():
                 print(".", end='', flush=True)
             print("\n")
                 
-            if cmd == "exit":
-                print("closing console")# exit cmd, breaks loop. is easier to put here, putting in parser is a bit too complex for something this simple
-                time.sleep(2)
-                break    
+            
             logging("node1", "Cmd input", cmd, "Command input in cmd_kernal. waiting for parsing")
             
             
             
-            cmd_parser(cmd)
+            result = cmd_parser(cmd)
+            
+            if result == "exit":
+                print("exiting...")
+                time.sleep(1.2)
+                break
             
         except KeyboardInterrupt:
             err.cmderror(KeyboardInterrupt, "ctrl c was pressed")
