@@ -3,9 +3,7 @@
 import json
 import time
 import os
-from KDLhandler import KDLErr
 
-err = KDLErr 
 
 LOG_PATH = "./logs/watcher.log" #sets up pathway file
 
@@ -24,8 +22,6 @@ def logging(node, event_type, source, details): # actual logging system, can and
         "source": source, # objects being logged
         "details": details
     }
-    try:
-        with open(LOG_PATH, "a") as log_file:
-            log_file.write(json.dumps(entry, indent=2) + "\n") 
-    except Exception as e:
-        err.watchererror("failed_log", {e})
+  
+    with open(LOG_PATH, "a") as log_file:
+        log_file.write(json.dumps(entry, indent=2) + "\n") 

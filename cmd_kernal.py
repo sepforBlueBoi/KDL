@@ -4,6 +4,7 @@ from KDL_Parser import cmd_parser
 from Watcher import logging, init_watcher
 from KDLhandler import KDLErr
 
+
 err = KDLErr
 init_watcher()
 def cmd_prompt():
@@ -41,3 +42,5 @@ def cmd_prompt():
         
 if __name__ == "__main__":
     cmd_prompt() # run the cmd prompt
+    
+    

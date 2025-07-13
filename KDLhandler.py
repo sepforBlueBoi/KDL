@@ -21,6 +21,4 @@ class KDLErr:
         
     def watchererror(error_type, reason): # for watcher nodes
         print(Fore.RED+ f"Watcher Node Error.{error_type}" + Style.RESET_ALL + reason)
-        if watchtoggle:
-            logging("node 4: fork 3", "Error", "watcherror", f"a watcher node has hit a error: {reason}")
-        return
+        
