@@ -47,3 +47,765 @@
   "source": "exit",
   "details": "Command input in cmd_kernal. waiting for parsing"
 }
+{
+  "timestamp": "2025-07-13 12: 15: 38",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log node_custom, forced, console, custom stuff",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-13 12: 15: 38",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "node_custom,",
+    "forced,",
+    "console,",
+    "custom",
+    "stuff"
+  ]
+}
+{
+  "timestamp": "2025-07-13 12: 16: 19",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log \"hello\", \"hello\", \"hello\", \"hello\"",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-13 12: 16: 19",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "\"hello\",",
+    "\"hello\",",
+    "\"hello\",",
+    "\"hello\""
+  ]
+}
+{
+  "timestamp": "2025-07-13 12: 17: 59",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log custom_log",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-13 12: 17: 59",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "custom_log"
+  ]
+}
+{
+  "timestamp": "2025-07-13 12: 19: 09",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log custom_log",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-13 12: 19: 09",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "custom_log"
+  ]
+}
+{
+  "timestamp": "2025-07-13 12: 20: 46",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log custom_log",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-13 12: 20: 46",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "custom_log"
+  ]
+}
+{
+  "timestamp": "2025-07-13 12: 22: 51",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log node event_type source details",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-13 12: 22: 51",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "node",
+    "event_type",
+    "source",
+    "details"
+  ]
+}
+{
+  "timestamp": "2025-07-13 12: 26: 28",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log hello hi hello hi",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-13 12: 26: 28",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "hello",
+    "hi",
+    "hello",
+    "hi"
+  ]
+}
+{
+  "timestamp": "2025-07-13 12: 26: 28",
+  "node type": "node2",
+  "event": "cmderror",
+  "source": "error in kernal",
+  "details": "a error occured"
+}
+{
+  "timestamp": "2025-07-13 12: 29: 48",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log hello hi helo hi",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-13 12: 29: 48",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "hello",
+    "hi",
+    "helo",
+    "hi"
+  ]
+}
+{
+  "timestamp": "2025-07-13 12: 29: 48",
+  "node type": "node2",
+  "event": "cmderror",
+  "source": "error in kernal",
+  "details": "a error occured"
+}
+{
+  "timestamp": "2025-07-14 14: 04: 19",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log node event_type source details",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 04: 19",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "node",
+    "event_type",
+    "source",
+    "details"
+  ]
+}
+{
+  "timestamp": "2025-07-14 14: 04: 19",
+  "node type": "node2",
+  "event": "cmderror",
+  "source": "error in kernal",
+  "details": "a error occured"
+}
+{
+  "timestamp": "2025-07-14 14: 06: 36",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log node hello hi console.log",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 06: 36",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "node",
+    "hello",
+    "hi",
+    "console.log"
+  ]
+}
+{
+  "timestamp": "2025-07-14 14: 06: 36",
+  "node type": "custom node",
+  "event": "hello",
+  "source": "hi",
+  "details": "console.log"
+}
+{
+  "timestamp": "2025-07-14 14: 08: 44",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log hello",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 08: 44",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "hello"
+  ]
+}
+{
+  "timestamp": "2025-07-14 14: 09: 28",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log node forced_log kdl_console none",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 09: 28",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "node",
+    "forced_log",
+    "kdl_console",
+    "none"
+  ]
+}
+{
+  "timestamp": "2025-07-14 14: 09: 28",
+  "node type": "custom node",
+  "event": "forced_log",
+  "source": "kdl_console",
+  "details": "none"
+}
+{
+  "timestamp": "2025-07-14 14: 12: 00",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp log node forced kdl_console none",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 12: 00",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "log",
+  "details": [
+    "node",
+    "forced",
+    "kdl_console",
+    "none"
+  ]
+}
+{
+  "timestamp": "2025-07-14 14: 12: 00",
+  "node type": "custom node",
+  "event": "forced",
+  "source": "kdl_console",
+  "details": "none"
+}
+{
+  "timestamp": "2025-07-14 14: 20: 58",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp save \"hello\" 1",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 20: 58",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "save",
+  "details": [
+    "\"hello\"",
+    "1"
+  ]
+}
+{
+  "timestamp": "2025-07-14 14: 22: 02",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp save data slot",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 22: 02",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "save",
+  "details": [
+    "data",
+    "slot"
+  ]
+}
+{
+  "timestamp": "2025-07-14 14: 22: 02",
+  "node type": "save_game node",
+  "event": "save successful",
+  "source": "save_module_KDL",
+  "details": "the function save_game works."
+}
+{
+  "timestamp": "2025-07-14 14: 22: 53",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "grasp save data 1",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 22: 53",
+  "node type": "node3",
+  "event": "grasp watcher 1",
+  "source": "save",
+  "details": [
+    "data",
+    "1"
+  ]
+}
+{
+  "timestamp": "2025-07-14 14: 22: 53",
+  "node type": "save_game node",
+  "event": "save successful",
+  "source": "save_module_KDL",
+  "details": "the function save_game works."
+}
+{
+  "timestamp": "2025-07-14 14: 26: 48",
+  "node type": "node1",
+  "event": "Cmd input",
+  "source": "exit",
+  "details": "Command input in cmd_kernal. waiting for parsing"
+}
+{
+  "timestamp": "2025-07-14 14: 26: 48",
+  "node type": "node 3",
+  "event": "user exited",
+  "source": "cmd_kernal",
+  "details": "None"
+}
+{
+  "timestamp": "2025-07-14 19: 13: 35",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 19: 14: 21",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log kernal 5 tehe cmd_kernal",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 19: 14: 21",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['kernal', '5', 'tehe', 'cmd_kernal'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 19: 15: 54",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 19: 17: 07",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log \"kernal\" 6 \"hello\" \"try 2\"",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 19: 17: 07",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['\"kernal\"', '6', '\"hello\"', '\"try', '2\"'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 19: 18: 56",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 19: 19: 25",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log kernal, 3 forced source 2",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 19: 19: 25",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['kernal,', '3', 'forced', 'source', '2'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 21: 51: 42",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 21: 52: 02",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 21: 52: 24",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log node fork event_type source",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 21: 52: 24",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['node', 'fork', 'event_type', 'source'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 21: 53: 09",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log (node fork event_type source)",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 21: 53: 09",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['(node', 'fork', 'event_type', 'source)'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 03: 03",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 22: 04: 19",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log kernal 1.1 forced_grasp :(",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 04: 19",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['kernal', '1.1', 'forced_grasp', ':('])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 05: 20",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 22: 05: 41",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log node 1.1 forced_log :(",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 08: 07",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 22: 08: 34",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log node node node node",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 08: 34",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['node', 'node', 'node', 'node'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 08: 34",
+  "node type": {
+    "type": "node 1",
+    "fork": "node"
+  },
+  "event": "node",
+  "source": "node"
+}
+{
+  "timestamp": "2025-07-14 22: 09: 31",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log kernal 1 hello hehe",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 09: 32",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['kernal', '1', 'hello', 'hehe'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 09: 52",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp node hehe hello sad",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 09: 52",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('node', ['hehe', 'hello', 'sad'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 10: 27",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log node1 0.5 try_2 guessing",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 10: 27",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['node1', '0.5', 'try_2', 'guessing'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 12: 30",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 22: 12: 59",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log test 1.1 test_subject run",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 12: 59",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['test', '1.1', 'test_subject', 'run'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 14: 23",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 22: 15: 08",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log node1 0.1 forced_log remember",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 15: 08",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['node1', '0.1', 'forced_log', 'remember'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 15: 08",
+  "node type": {
+    "type": "node 1",
+    "fork": "0.1"
+  },
+  "event": "forced_log",
+  "source": "remember"
+}
+{
+  "timestamp": "2025-07-14 22: 18: 41",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 22: 18: 49",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 22: 19: 29",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log kernal 0.1 event_test custom",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 19: 29",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['kernal', '0.1', 'event_test', 'custom'])",
+  "source": "grasp"
+}
+{
+  "timestamp": "2025-07-14 22: 19: 29",
+  "node type": {
+    "type": "node 1",
+    "fork": "0.1"
+  },
+  "event": "event_test",
+  "source": "custom"
+}
+{
+  "timestamp": "2025-07-14 22: 19: 56",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-14 22: 20: 07",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: grasp log parsar",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-14 22: 20: 07",
+  "node type": {
+    "type": "node 3",
+    "fork": 1
+  },
+  "event": "function grasped: ('log', ['parsar'])",
+  "source": "grasp"
+}

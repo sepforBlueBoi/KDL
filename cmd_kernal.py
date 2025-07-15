@@ -1,7 +1,7 @@
 #CMD_prompt
 import time
 from KDL_Parser import cmd_parser
-from Watcher import logging, init_watcher
+from Watcher import __watcher__, init_watcher
 from KDLhandler import KDLErr
 
 
@@ -9,7 +9,7 @@ err = KDLErr
 init_watcher()
 def cmd_prompt():
     print("=" * 40) # banner for info 
-    print("Kondikes Debug Language[KDL] v1.1.0") #1.1 now since erreyes
+    print("Kondikes Debug Language[KDL] v1.2.0") #1.2 now since grasp works for multiple context inputs
     print("Type 'help' for a list of commands.")
     print("type 'exit' to quit.")
     print("=" * 40)
@@ -23,7 +23,7 @@ def cmd_prompt():
             print("\n")
                 
             
-            logging("node1", "Cmd input", cmd, "Command input in cmd_kernal. waiting for parsing")
+            __watcher__("kernal", 1, f"cmd loading: {cmd}", "cmd_prompt")
             
             
             
@@ -31,6 +31,7 @@ def cmd_prompt():
             
             if result == "exit":
                 print("exiting...")
+                __watcher__("kernal", 2, "exiting KDL", "cmd_prompt")
                 time.sleep(1.2)
                 break
             
@@ -38,11 +39,12 @@ def cmd_prompt():
             err.cmderror(KeyboardInterrupt, "ctrl c was pressed")
             break
         except Exception as e:
-            logging("node2" ,"cmderror", "error in kernal", "a error occured")
+            
             err.cmderror("unknown", {e})
             continue
         
 if __name__ == "__main__":
+    __watcher__("kernal", "0", "KDL console booted", "cmd_kernal")
     cmd_prompt() # run the cmd prompt
     
     

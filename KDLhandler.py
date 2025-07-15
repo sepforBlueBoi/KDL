@@ -15,11 +15,11 @@ class KDLErr:
         Errorlog("grasperror", reason)
         
     def cmderror(error_type, reason): # for basic cmd errors
-        print(Fore.RED +f"Cmd Error.{error_type}: " + Style.RESET_ALL + reason)
+        print(Fore.RED +f"Cmd Error.{error_type}: " + Style.RESET_ALL + str(reason))
         Errorlog("cmderror", reason)
         
     def watchererror(error_type, reason): # for Watcher node errors
-        print(Fore.RED + f"Watcher Error. {error_type} " + Style.RESET_ALL + reason)
+        print(Fore.RED + f"Watcher Error. {error_type}: " + Style.RESET_ALL + str(reason))
         Errorlog("watchererror", reason)
         
         

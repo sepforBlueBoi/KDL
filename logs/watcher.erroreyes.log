@@ -8,3 +8,98 @@
   "event": "cmderror",
   "details": "missing command keywords, or invalid command entered"
 }
+{
+  "timestamp": "2025-07-13 12: 15: 38",
+  "event": "grasperror",
+  "details": "refer to return method for reason"
+}
+{
+  "timestamp": "2025-07-13 12: 16: 19",
+  "event": "grasperror",
+  "details": "refer to return method for reason"
+}
+{
+  "timestamp": "2025-07-13 12: 17: 59",
+  "event": "grasperror",
+  "details": "refer to return method for reason"
+}
+{
+  "timestamp": "2025-07-13 12: 19: 10",
+  "event": "grasperror",
+  "details": "logging() missing 3 required positional arguments: 'event_type', 'source', and 'details'"
+}
+{
+  "timestamp": "2025-07-13 12: 20: 46",
+  "event": "grasperror",
+  "details": "logging() missing 3 required positional arguments: 'event_type', 'source', and 'details'"
+}
+{
+  "timestamp": "2025-07-13 12: 22: 51",
+  "event": "grasperror",
+  "details": "logging() missing 3 required positional arguments: 'event_type', 'source', and 'details'"
+}
+{
+  "timestamp": "2025-07-14 14: 08: 44",
+  "event": "grasperror",
+  "details": "logging() missing 4 required positional arguments: 'node', 'event_type', 'source', and 'details'"
+}
+{
+  "timestamp": "2025-07-14 14: 20: 58",
+  "event": "grasperror",
+  "details": "save_game() missing 2 required positional arguments: 'data' and 'slot'"
+}
+{
+  "timestamp": "2025-07-14 19: 14: 21",
+  "event": "grasperror",
+  "details": "__watcher__() missing 4 required positional arguments: 'node', 'fork', 'event_type', and 'source'"
+}
+{
+  "timestamp": "2025-07-14 19: 17: 07",
+  "event": "grasperror",
+  "details": "__watcher__() missing 4 required positional arguments: 'node', 'fork', 'event_type', and 'source'"
+}
+{
+  "timestamp": "2025-07-14 19: 19: 25",
+  "event": "grasperror",
+  "details": "__watcher__() missing 4 required positional arguments: 'node', 'fork', 'event_type', and 'source'"
+}
+{
+  "timestamp": "2025-07-14 21: 52: 24",
+  "event": "grasperror",
+  "details": "__watcher__() missing 4 required positional arguments: 'node', 'fork', 'event_type', and 'source'"
+}
+{
+  "timestamp": "2025-07-14 21: 53: 09",
+  "event": "grasperror",
+  "details": "__watcher__() missing 4 required positional arguments: 'node', 'fork', 'event_type', and 'source'"
+}
+{
+  "timestamp": "2025-07-14 22: 04: 19",
+  "event": "grasperror",
+  "details": "__watcher__() missing 4 required positional arguments: 'node', 'fork', 'event_type', and 'source'"
+}
+{
+  "timestamp": "2025-07-14 22: 09: 32",
+  "event": "grasperror",
+  "details": "__watcher__() missing 4 required positional arguments: 'node', 'fork', 'event_type', and 'source'"
+}
+{
+  "timestamp": "2025-07-14 22: 09: 52",
+  "event": "grasperror",
+  "details": "plug name could not be found"
+}
+{
+  "timestamp": "2025-07-14 22: 10: 27",
+  "event": "grasperror",
+  "details": "__watcher__() missing 4 required positional arguments: 'node', 'fork', 'event_type', and 'source'"
+}
+{
+  "timestamp": "2025-07-14 22: 12: 59",
+  "event": "grasperror",
+  "details": "unhashable type: 'dict'"
+}
+{
+  "timestamp": "2025-07-14 22: 20: 07",
+  "event": "grasperror",
+  "details": "__watcher__() missing 3 required positional arguments: 'fork', 'event_type', and 'source'"
+}
