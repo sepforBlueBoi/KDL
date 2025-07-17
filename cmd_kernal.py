@@ -9,9 +9,10 @@ err = KDLErr
 init_watcher()
 def cmd_prompt():
     print("=" * 40) # banner for info 
-    print("Kondikes Debug Language[KDL] v1.2.0") #1.2 now since grasp works for multiple context inputs
+    print("Kondikes Debug Lens[KDL] v1.2.0") #1.2 now since grasp works for multiple context inputs
     print("Type 'help' for a list of commands.")
-    print("type 'exit' to quit.")
+    print("Type 'exit' to quit.")
+    print("For further info check 'README.md'.")
     print("=" * 40)
     
     while True: #loop

@@ -1,6 +1,6 @@
 #grasp
 from Watcher import __watcher__
-from Import_Nexus import PLUGS, CONTEXT # imports plugs, explanentary
+from Import_Nexus import PLUGS # imports plugs, explanentary
 from KDLhandler import KDLErr
 
 error = KDLErr
@@ -17,7 +17,7 @@ def grasp(plug_name, plug_args):
     
     try:
         if context:
-            #print(f"{plug.__name__} with {context if not context_more else context, context_more} has been called")
+            print(f"{plug.__name__} with {context} has been called")
             return plug(*context)
 
         else: # calls function based off of whats shown

@@ -8,8 +8,8 @@ two birds one stone, 'but its weird!', i simple dont care, also it doesnt hurt n
 
 //TODO:
 - [x] Set up Error handling file, for kernal
-- [x] Set up Nexus file, for imports [in cmd_nexus]
+- [x] Set up Nexus file, for imports [in Import_nexus]
 - [x] set up cmd_prompt file
 - [x] set up parser file [almost done]
 - [x] set up grasp [x], inject [ not being done], and override [not being done]
-- [x] Set up Constants [scrapped, now we have cmd_nexus]"""
+- [x] Set up Constants [scrapped, now we have Import_nexus]"""

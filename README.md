@@ -37,18 +37,7 @@ PLUGS = {
 }
 ```
 
-### 3. Define Context
-In `CONTEXT`, define necessary arguments:
-
-```python
-CONTEXT = {
-    "debug_context": {"currency": 100, "traits": {"greed": True}}
-}
-"""or just the dict name if its already been laid out
-and when importing mulitple args, only the first one needs to be mapped. other ones are not needed. cant be needed. """
-```
-
-### 4. Run Kernel
+### 3. Run Kernel
 Use `grasp` to dispatch with context:
 
 ```bash
@@ -77,20 +66,20 @@ The arguments should line up like so:
 - 1. node type. check in Watcher.py for node types, can be expanded on
 
 - 2. Node ID aka the fork. either run the fork ID call based, or top to bottem based
-    - Call based is each call gets its own set of forks, still top to bottem, or bottem to top, but each function should get its own fork 1.
+    - Call based is each Function call gets its own set of forks, still top to bottem, or bottem to top, but each function should get its own fork 1.
 
     - top to bottem based. python runs code top to bottem, so thats how these are laid out, the call at to very tippy top of the code will be 1, or 0, bottem will be...well depends on how many calls you have. or reverse it bottem to top.
 
 - 3. Event type, self explanatory, the event you're logging
 
-- 4. Source, Class, function, or file its in. allows for different forks for different functions or even classes.
+- 4. Source; Class, function, or file its in. allows for different forks for different functions or even classes.
 
 ---
 ## Example Output
 After each command input, it should load a bit. if you want this can be removed. other wise it should have three dots that signify the loading. grasp has the print that says it works: 
 
 ```python
-print(f"{plug.__name__} with {context if not context_more else context, context_more} has been called")
+print(f"{plug.__name__} with {context} has been called")
 ```
 
 also runs the function, thats the other show.
@@ -113,4 +102,4 @@ KDL is meant to be changed. Fork it, refine it, build your own plugs, handlers, 
 
 ---
 
-most of this README is ai generated, to tired from working on the code, but it has been edited. 
+most of this README is ai generated, too tired from working on the code, but it has been edited. 

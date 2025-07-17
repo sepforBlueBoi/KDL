@@ -1,4 +1,5 @@
 {
     "vscode-pets.petSize": "medium",
-    "vscode-pets.petColor": "yellow"
+    "vscode-pets.petColor": "yellow",
+    "python.REPL.enableREPLSmartSend": false
 }
