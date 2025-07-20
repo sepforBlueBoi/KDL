@@ -1,6 +1,6 @@
 #errors :D
 from colorama import init, Fore, Style
-from ErrEyes import Errorlog, init_erroreyes
+from .ErrEyes import Errorlog, init_erroreyes
 
 init_erroreyes()
 

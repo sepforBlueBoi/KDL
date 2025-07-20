@@ -2,7 +2,7 @@ import json
 import time
 import os
 
-LOG_PATH = "./logs/watcher.erroreyes.log" #sets up pathway file
+LOG_PATH = "./logs/watcher.erroreyes.log" #sets up pathway file, snatched from Watcher
 
 
 def init_erroreyes(): # adds [athway file, if it didnt exist before]

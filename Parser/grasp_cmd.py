@@ -1,7 +1,7 @@
 #grasp
-from Watcher import __watcher__
-from Import_Nexus import PLUGS # imports plugs, explanentary
-from KDLhandler import KDLErr
+from ..Eyes.Watcher import __watcher__
+from ..Nexus.Import_Nexus import PLUGS # imports plugs, explanentary
+from ..Eyes.KDLhandler import KDLErr
 
 error = KDLErr
 def grasp(plug_name, plug_args):

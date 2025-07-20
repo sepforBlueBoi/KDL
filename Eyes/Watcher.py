@@ -3,7 +3,7 @@
 import json
 import time
 import os
-from KDLhandler import KDLErr
+from .KDLhandler import KDLErr
 err = KDLErr
 
 WATCHER_NODE = {

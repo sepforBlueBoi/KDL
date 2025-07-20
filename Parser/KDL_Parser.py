@@ -1,6 +1,6 @@
 #parser
-from grasp_cmd import grasp
-from KDLhandler import KDLErr
+from .grasp_cmd import grasp
+from ..Eyes.KDLhandler import KDLErr
 
 err = KDLErr
 
@@ -31,4 +31,4 @@ def cmd_parser(cmd): # v1.0.0 for KDL parser. simple commands right now, but soo
         plug_args = args[1:] #parsing args for grasp
         return grasp(plug_name, plug_args)
     else:
-        err.cmderror("keyword", "missing command keywords, or invalid command entered")
+        err.cmderror("keyword", "missing command keywords, or invalid command entered") #simple catch all,

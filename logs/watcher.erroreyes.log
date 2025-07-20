@@ -103,3 +103,18 @@
   "event": "grasperror",
   "details": "__watcher__() missing 3 required positional arguments: 'fork', 'event_type', and 'source'"
 }
+{
+  "timestamp": "2025-07-19 15: 39: 54",
+  "event": "cmderror",
+  "details": "missing command keywords, or invalid command entered"
+}
+{
+  "timestamp": "2025-07-19 15: 40: 06",
+  "event": "cmderror",
+  "details": "missing command keywords, or invalid command entered"
+}
+{
+  "timestamp": "2025-07-19 15: 41: 22",
+  "event": "cmderror",
+  "details": "missing command keywords, or invalid command entered"
+}

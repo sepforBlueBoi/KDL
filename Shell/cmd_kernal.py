@@ -1,8 +1,8 @@
 #CMD_prompt
 import time
-from KDL_Parser import cmd_parser
-from Watcher import __watcher__, init_watcher
-from KDLhandler import KDLErr
+from Parser.KDL_Parser import cmd_parser
+from Eyes.Watcher import __watcher__, init_watcher
+from Eyes.KDLhandler import KDLErr
 
 
 err = KDLErr
@@ -44,8 +44,6 @@ def cmd_prompt():
             err.cmderror("unknown", {e})
             continue
         
-if __name__ == "__main__":
-    __watcher__("kernal", "0", "KDL console booted", "cmd_kernal")
-    cmd_prompt() # run the cmd prompt
+
     
     

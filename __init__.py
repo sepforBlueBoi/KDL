@@ -13,3 +13,5 @@ two birds one stone, 'but its weird!', i simple dont care, also it doesnt hurt n
 - [x] set up parser file [almost done]
 - [x] set up grasp [x], inject [ not being done], and override [not being done]
 - [x] Set up Constants [scrapped, now we have Import_nexus]"""
+
+#i no longer know why this is here...?

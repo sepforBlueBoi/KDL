@@ -845,3 +845,66 @@
   "event": "KDL console booted",
   "source": "cmd_kernal"
 }
+{
+  "timestamp": "2025-07-19 15: 39: 47",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-19 15: 39: 54",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: sick",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-19 15: 40: 06",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: about right",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-19 15: 41: 14",
+  "node type": {
+    "type": "node 1",
+    "fork": "0"
+  },
+  "event": "KDL console booted",
+  "source": "cmd_kernal"
+}
+{
+  "timestamp": "2025-07-19 15: 41: 22",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: goated",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-19 15: 41: 32",
+  "node type": {
+    "type": "node 1",
+    "fork": 1
+  },
+  "event": "cmd loading: exit",
+  "source": "cmd_prompt"
+}
+{
+  "timestamp": "2025-07-19 15: 41: 32",
+  "node type": {
+    "type": "node 1",
+    "fork": 2
+  },
+  "event": "exiting KDL",
+  "source": "cmd_prompt"
+}
